@@ -133,45 +133,45 @@
     position: absolute;
     width: 208px;
     height: 104px;
-    top: 192px;
-    left: 488px;
+    top: 136px;
+    left: 1276px;
 }
 
 .xbox .button {
     position: absolute;
     background: url(https://imgur.com/IvwXNnd.png);
-    width: 48px;
-    height: 48px;
+    width: 52px;
+    height: 52px;
 }
 
 .xbox .button.pressed {
     background-position-y: -52px;
-    margin-top: 5px;
+    margin-top: 0px;
     opacity: 1;
 }
 
-.xbox .a {
-    background-position: -62px -62;
+.xbox .b {
+    background-position: -52px 0px;
     top: 0px;
-    left: 0px;
+    left: 84px;
 }
 
-.xbox .b {
-    background-position: 0px 0;
-    top: 0px;
-    right: 0px;
+.xbox .a {
+    background-position: 0px 0px;
+    top: 42px;
+    left: 42px;
 }
 
 .xbox .x {
-    background-position: 0px 0;
+    background-position: 52px 0px;
     top: 0px;
     left: 0px;
 }
 
 .xbox .y {
-    background-position: 0px 0;
-    left: 0px;
-    top: 0px;
+    background-position: 104px 0;
+    left: 42px;
+    top: -42px;
 }
 
 .xbox .sticks {
@@ -213,7 +213,7 @@
 }
 
 .xbox .face {
-    background: url(https://imgur.com/G0f4jwI.png)
+    background: url(https://imgur.com/G0f4jwI.png);
     position: absolute;
     opacity: 0;
 }
