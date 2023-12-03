@@ -11,7 +11,7 @@
 }
 
 .xbox.disconnected {
-    background: url(https://imgur.com/JMEGTb5.png);
+    background: url(https://imgur.com/BJyBatp.png);
 }
 
 .xbox.disconnected div {
@@ -43,22 +43,22 @@
 }
 
 .xbox .bumper {
-    width: 0px;
-    height: 0px;
-    background: url(xbox-assets/bumper.svg);
-    opacity: 100;
+    width: 144px;
+    height: 52px;
+    background: url(https://imgur.com/2xM8X2L.png);
+    opacity: 0;
 }
 
 .xbox .bumpers {
     position: absolute;
     width: 0px;
     height: 0px;
-    left: 0px;
+    left: 8px;
     top: 0px;
 }
 
 .xbox .bumper.pressed {
-    opacity: 100;
+    opacity: 1;
 }
 
 .xbox .bumper.left {
@@ -66,9 +66,9 @@
 }
 
 .xbox .bumper.right {
-    float: right;
+    position: absolute;
+    left: 1280px;
     -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
 }
 
 .xbox .quadrant {
@@ -111,8 +111,8 @@
 
 .xbox .back, .xbox .start {
     background: url(https://imgur.com/tELQt1X.png);
-    width: 33px;
-    height: 33px;
+    width: 52px;
+    height: 52px;
     opacity: 0;
 }
 
@@ -121,12 +121,16 @@
 }
 
 .xbox .back {
-    float: left;
+    position: absolute;
+    top: -235px;
+    left: -166px;
 }
 
 .xbox .start {
-    background-position: 33px 0px;
-    float: right;
+    background-position: 52px 0px;
+    position: absolute;
+    top: -235px;
+    left: 950px;
 }
 
 .xbox .abxy {
@@ -195,8 +199,8 @@
 }
 
 .xbox .stick.left {
-    top: 0;
-    left: 0;
+    top: -1px;
+    left: -1px;
 }
 
 .xbox .stick.right {
@@ -208,7 +212,7 @@
     position: absolute;
     width: 156px;
     height: 156px;
-    top: 250px;
+    top: 251px;
     left: 50px;
 }
 
@@ -233,8 +237,8 @@
 
 .xbox .face.down {
     background-position: 0px 0;
-    left: 21px;
-    top: 80px;
+    left: 20.6px;
+    top: 80.4px;
 }
 
 .xbox .face.left {
